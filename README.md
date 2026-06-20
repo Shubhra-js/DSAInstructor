@@ -33,10 +33,6 @@ It helps students understand DSA concepts, prepare for coding interviews, analyz
 
 * Google Gemini API
 
-## 📸 Preview
-
-<img width="100%" alt="DSA Bro Interface" src="assets/home.png">
-
 
 ## 📂 Project Structure
 
