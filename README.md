@@ -2,7 +2,7 @@
 
 DSA Bro is an AI-powered Data Structures and Algorithms tutor built using Node.js, Express.js, Google Gemini API, HTML, CSS, and JavaScript.
 
-It helps students understand DSA concepts, prepare for coding interviews, analyze algorithm complexity, and learn through an interactive conversational interface.
+It helps students understand DSA concepts, analyze algorithm complexity, and learn through an interactive conversational interface.
 
 ## ✨ Features
 
