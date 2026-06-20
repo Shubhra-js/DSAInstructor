@@ -55,7 +55,7 @@ async function sendMessage() {
         // Show bot reply
         chatBox.innerHTML += `
             <div class="bot-message">
-                ${data.reply}
+                ${marked.parse(data.reply)}
             </div>
         `;
 
@@ -86,3 +86,30 @@ userInput.addEventListener("keydown", (event) => {
         sendMessage();
     }
 });
+document.querySelectorAll(".suggestion-btn").forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        userInput.value = button.innerText;
+
+        sendMessage();
+
+    });
+
+});
+chatBox.innerHTML = `
+<div class="bot-message">
+    <h3>👋 Welcome to DSA Bro</h3>
+
+    <p>I can help you with:</p>
+
+    <ul>
+        <li>Arrays</li>
+        <li>Linked Lists</li>
+        <li>Trees</li>
+        <li>Graphs</li>
+        <li>Dynamic Programming</li>
+        <li>Competitive Programming</li>
+    </ul>
+</div>
+`;
